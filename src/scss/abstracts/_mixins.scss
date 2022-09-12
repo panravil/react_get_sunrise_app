@@ -1,0 +1,15 @@
+@mixin for-xxs-only {
+    @media (max-width: 399px) { @content; }
+}
+
+@mixin for-xs-only {
+    @media only screen and (max-width: 767px) and (min-width: 400px) { @content; }
+}
+
+@mixin for-xs {
+    @media only screen and (max-width: 767px) { @content; }
+}
+
+@mixin for-md-only {
+    @media only screen and (max-width: 1100px) and (min-width: 768px) { @content; }
+}
