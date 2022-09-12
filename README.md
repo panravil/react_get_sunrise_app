@@ -11,3 +11,5 @@ The app utilizes:
 - Axios for easy http requests,
 - Material-ui for styling and design.
 - SCSS
+
+Live Demo on [Netlify](https://peaceful-gelato-9642b2.netlify.app).
